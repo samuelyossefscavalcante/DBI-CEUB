@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cácula" directorySegmentName="seg_0" id="AEFC9755-230B-4FA6-66B6-78ED72B89198">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-04-28 23:04:15 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DBCAEDBC-440E-E60E-077D-75B3D7D98819" value="true"/>
+</engineerTo>
+<sourcePk>2E54E21C-4F34-C6B6-278B-D5B8AD8B098C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8644E3D-6F43-6761-1131-FE636FD8D672</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC8E87D7-1685-D28E-45A3-97BB0BB58AA1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

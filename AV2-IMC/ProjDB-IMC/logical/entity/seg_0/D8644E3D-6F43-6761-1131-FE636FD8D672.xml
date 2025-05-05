@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8644E3D-6F43-6761-1131-FE636FD8D672" name="Pessoa">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-04-07 23:44:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DBCAEDBC-440E-E60E-077D-75B3D7D98819" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomePessoa" id="09C59C3B-F642-2FA7-4508-E01183B87A6A">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-04-07 23:46:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DBCAEDBC-440E-E60E-077D-75B3D7D98819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="D4C07998-12B4-2CA6-2094-300CF024BEDE">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-04-28 22:58:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DBCAEDBC-440E-E60E-077D-75B3D7D98819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E54E21C-4F34-C6B6-278B-D5B8AD8B098C" name="Pessoa PK">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-04-28 22:59:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="DBCAEDBC-440E-E60E-077D-75B3D7D98819" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D4C07998-12B4-2CA6-2094-300CF024BEDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
