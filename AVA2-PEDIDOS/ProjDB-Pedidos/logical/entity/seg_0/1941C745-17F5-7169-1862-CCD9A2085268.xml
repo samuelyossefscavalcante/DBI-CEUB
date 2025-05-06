@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1941C745-17F5-7169-1862-CCD9A2085268" name="Pedido">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-05 23:37:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identiPedido" id="6F597975-B2FA-A0FC-57F6-9B97A1477FE4">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-05 23:40:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHoraPedido" id="181E5AB8-EE2E-A8F6-3F62-FD55CE6862FA">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-05 23:44:41 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusdoPedido" id="C56003DC-90EF-18B9-19AF-8D54F21CBCDA">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-05 23:45:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorTotal" id="FCE0CCA8-7CB6-A060-D419-95CAF9D4D3EB">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-06 00:21:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="03AC9F32-919D-A9C8-25FC-F98010F08027">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-06 00:47:56 UTC</createdTime>
+<generatorID>0447AC38-6E8E-0C63-EEB6-9C737D51E6F4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<referedAttribute>18427A36-3EB3-5ACA-C04B-894AF34B9BC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B132C738-E828-F56B-734C-DD18C495ADE9" name="Pedido PK">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-05 23:44:32 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F597975-B2FA-A0FC-57F6-9B97A1477FE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

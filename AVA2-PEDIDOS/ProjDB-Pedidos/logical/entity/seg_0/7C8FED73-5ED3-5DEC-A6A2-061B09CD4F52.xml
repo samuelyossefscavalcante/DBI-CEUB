@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C8FED73-5ED3-5DEC-A6A2-061B09CD4F52" name="Produto">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-05 23:48:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identiProduto" id="A6C99669-DB8D-306B-5675-9AFDCE9FD7E5">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-06 00:23:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descriProduto" id="B872A02C-2E16-8956-0178-1FC99BA4D6B6">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-06 00:25:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identiPedido" id="332DBD4D-02DF-4CEE-61A1-505FC216A369">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-06 00:48:49 UTC</createdTime>
+<generatorID>E4BBA02F-DB2B-01B6-6B45-31C48FB907CD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<referedAttribute>6F597975-B2FA-A0FC-57F6-9B97A1477FE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F127820-7E00-ED75-757D-0E4612679116" name="Produto PK">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-06 00:25:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="A42DC346-E5FA-4941-01AA-C02A7F8595F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6C99669-DB8D-306B-5675-9AFDCE9FD7E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
