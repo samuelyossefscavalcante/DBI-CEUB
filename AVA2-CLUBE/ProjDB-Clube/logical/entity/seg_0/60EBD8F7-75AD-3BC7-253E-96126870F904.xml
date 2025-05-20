@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60EBD8F7-75AD-3BC7-253E-96126870F904" name="Telefone">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-19 23:38:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="telefone" id="7735CCB5-96C8-4F32-AA35-5D8CF8200C07">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-19 23:39:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="5C0FF0B2-737F-8852-D514-8F8D24151A5E">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-19 23:41:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipodeTelefone" id="D295EE53-9181-6974-E89A-AA5EE6048B91">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-19 23:42:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="8A91AA85-9EF0-9DFC-09F9-4F58FCF9F643">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-20 00:29:34 UTC</createdTime>
+<generatorID>FB3E42A0-2641-A756-87D6-D0B3E2745CDE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<referedAttribute>07085A6E-AB20-E7E9-434B-78F52AAB9B21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="A1E93749-39B7-A541-4054-62DE9CD6B54B">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-20 00:29:34 UTC</createdTime>
+<generatorID>FB3E42A0-2641-A756-87D6-D0B3E2745CDE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<referedAttribute>BC8A216E-F5F2-BAE2-51BD-982D1523D8C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="A414E97C-867C-A065-15C1-2EAB47B2AF4D">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-20 00:31:04 UTC</createdTime>
+<generatorID>59A918C5-F384-792F-3C07-04DBDC77E0CE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<referedAttribute>395FEB7B-9005-AC71-7CBC-93E434BD7D87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="CFE8C020-DD54-D82A-174E-AE156E57B15D">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-20 00:31:04 UTC</createdTime>
+<generatorID>59A918C5-F384-792F-3C07-04DBDC77E0CE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<referedAttribute>B7F4683B-98EC-AC23-3FC1-516CE839F21B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA87BB3F-7E69-D882-EC8B-620C5309609F" name="TelefoneTitular PK">
+<createdBy>samuel.yossef</createdBy>
+<createdTime>2025-05-19 23:41:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C2183CDF-54A3-75DF-0051-D6FC62C988B3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7735CCB5-96C8-4F32-AA35-5D8CF8200C07</attributeRef>
+<attributeRef>5C0FF0B2-737F-8852-D514-8F8D24151A5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
